@@ -26,19 +26,20 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
         <script>
             let P = document. querySelector("P")
-let add = document. querySelector(".add")
-let save = document. querySelector(".one")
-let saver = document. querySelector("#saver")
+            let add = document. querySelector(".add")
+            let save = document. querySelector(".one")
+            let saver = document. querySelector("#saver")
 
-console.log(P)
+        console.log(P)
 
-add.addEventListener("click", function (){
-    P.innerHTML = +P.innerHTML + 1;
-} )
-save.addEventListener("click", function() {
+            add.addEventListener("click", function (){
+            P.innerHTML = +P.innerHTML + 1;
+            } )
+    save.addEventListener("click", function() {
     if (P.innerHTML != 0){
         if ( saver.innerHTML == 0){
             saver.innerHTML = P.innerHTML
@@ -48,7 +49,7 @@ save.addEventListener("click", function() {
         }
     }
     P.innerHTML = 0
-} )
+    } )
 </script>
 </body>
 
